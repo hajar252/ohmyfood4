@@ -288,9 +288,9 @@ body, html {
 .footer__listElt {
   margin: 0.5rem 0;
   /* flex-basis: calc(25% - 20px);*/
-  /* &:last-child {
-     margin-bottom: 0;
-   }*/
+}
+.footer__listElt:last-child {
+  margin-bottom: 0;
 }
 .footer__link {
   color: white;
