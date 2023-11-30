@@ -47,9 +47,9 @@
   
      
   
-      &:last-child {
+     /* &:last-child {
         margin-bottom: 0;
-      }
+      }*/
     }
   
     &__link {
@@ -57,8 +57,8 @@
       text-decoration: none;
   
       &:hover {
-        text-decoration: underline;
-        margin: 0px 0px 0px 40px;
+       text-decoration: underline;
+       /* margin: 0px 0px 0px 40px;*/
       }
     }
   }
